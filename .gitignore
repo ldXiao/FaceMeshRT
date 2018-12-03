@@ -3,6 +3,9 @@
 *.lo
 *.o
 *.obj
+*.pts
+*.png
+*.mtl
 
 # Precompiled Headers
 *.gch

@@ -1,0 +1,1 @@
+/usr/bin/libtool -c -static -o liblibFaceMeshRT.a  CMakeFiles/libFaceMeshRT.dir/src/FaceMeshRT/Face2Landmark.cpp.o CMakeFiles/libFaceMeshRT.dir/src/FaceMeshRT/Landmark2Mesh.cpp.o CMakeFiles/libFaceMeshRT.dir/src/FaceMeshRT/LandmarkRegistration.cpp.o 

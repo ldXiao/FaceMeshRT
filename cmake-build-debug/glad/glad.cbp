@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="glad"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\..\..\usr\local\share\eigen3\;CMake Files\..\..\..\..\usr\local\share\eigen3\cmake\;CMake Files\..\libigl\;CMake Files\..\libigl\cmake\;CMake Files\..\libigl\external\;CMake Files\..\libigl\external\glad\;CMake Files\..\libigl\external\glfw\;CMake Files\..\libigl\external\glfw\CMake\;CMake Files\..\libigl\external\glfw\CMake\modules\;CMake Files\..\libigl\external\glfw\src\;CMake Files\..\dlib\;CMake Files\..\dlib\dlib\;CMake Files\..\dlib\dlib\cmake_utils\;CMake Files\cmake\;CMake Files\extern\;CMake Files\extern\eos\;CMake Files\extern\eos\3rdparty\;CMake Files\extern\eos\3rdparty\eigen\;CMake Files\extern\eos\3rdparty\eigen\cmake\;CMake Files\extern\eos\examples\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/vector_cat/gits/FaceMeshRT/cmake-build-debug/glad"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/vector_cat/gits/FaceMeshRT/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vector_cat/gits/FaceMeshRT/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vector_cat/gits/FaceMeshRT/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vector_cat/gits/FaceMeshRT/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad">
+				<Option output="/Users/vector_cat/gits/FaceMeshRT/cmake-build-debug/glad/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vector_cat/gits/FaceMeshRT/cmake-build-debug/glad"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/vector_cat/gits/libigl/external/glad/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/vector_cat/gits/FaceMeshRT/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 glad"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vector_cat/gits/FaceMeshRT/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vector_cat/gits/FaceMeshRT/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vector_cat/gits/FaceMeshRT/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad/fast">
+				<Option output="/Users/vector_cat/gits/FaceMeshRT/cmake-build-debug/glad/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vector_cat/gits/FaceMeshRT/cmake-build-debug/glad"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/vector_cat/gits/libigl/external/glad/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/vector_cat/gits/FaceMeshRT/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 glad/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vector_cat/gits/FaceMeshRT/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vector_cat/gits/FaceMeshRT/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vector_cat/gits/FaceMeshRT/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/vector_cat/gits/libigl/external/glad/src/glad.c">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/../../../../usr/local/share/eigen3/cmake/EIGEN3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/../../../../usr/local/share/eigen3/cmake/EIGEN3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/../../../../usr/local/share/eigen3/cmake/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/../libigl/cmake/CXXFeatures.cmake">
+			<Option virtualFolder="CMake Files\..\libigl\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/../libigl/cmake/DownloadProject.CMakeLists.cmake.in">
+			<Option virtualFolder="CMake Files\..\libigl\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/../libigl/cmake/DownloadProject.cmake">
+			<Option virtualFolder="CMake Files\..\libigl\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/../libigl/cmake/LibiglDownloadExternal.cmake">
+			<Option virtualFolder="CMake Files\..\libigl\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/../libigl/cmake/libigl-config.cmake.in">
+			<Option virtualFolder="CMake Files\..\libigl\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/../libigl/cmake/libigl.cmake">
+			<Option virtualFolder="CMake Files\..\libigl\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/../libigl/external/glad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\libigl\external\glad\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/../libigl/external/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\libigl\external\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/../libigl/external/glfw/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\..\libigl\external\glfw\CMake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/../libigl/external/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\libigl\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/../libigl/external/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\..\libigl\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/../libigl/external/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\..\libigl\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/../libigl/external/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\..\libigl\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/../dlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\dlib\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/../dlib/dlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\dlib\dlib\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/../dlib/dlib/cmake_utils/find_blas.cmake">
+			<Option virtualFolder="CMake Files\..\dlib\dlib\cmake_utils\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/../dlib/dlib/cmake_utils/release_build_by_default">
+			<Option virtualFolder="CMake Files\..\dlib\dlib\cmake_utils\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/../dlib/dlib/cmake_utils/set_compiler_specific_options.cmake">
+			<Option virtualFolder="CMake Files\..\dlib\dlib\cmake_utils\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/../dlib/dlib/cmake_utils/use_cpp_11.cmake">
+			<Option virtualFolder="CMake Files\..\dlib\dlib\cmake_utils\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/cmake/FindDLIB.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/cmake/FindLIBIGL.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/extern/eos/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\eos\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/extern/eos/3rdparty/eigen/cmake/FindEigen3.cmake">
+			<Option virtualFolder="CMake Files\extern\eos\3rdparty\eigen\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/vector_cat/gits/FaceMeshRT/extern/eos/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\eos\examples\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

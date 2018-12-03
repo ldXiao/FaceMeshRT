@@ -1,0 +1,99 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /Users/vector_cat/gits/FaceMeshRT
+-- The C compiler identification is AppleClang 10.0.0.10001145
+-- The CXX compiler identification is AppleClang 10.0.0.10001145
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenCV: /usr/local (found version "3.4.3") 
+-- Found libtool - /usr/bin/libtool
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - found
+-- Found Threads: TRUE  
+-- Creating target: igl::core (igl)
+-- Found OpenGL: /System/Library/Frameworks/OpenGL.framework   
+-- Creating target: igl::opengl (igl_opengl)
+-- Creating target: igl::opengl_glfw (igl_opengl_glfw)
+CMake Deprecation Warning at /Users/vector_cat/gits/libigl/external/glfw/CMakeLists.txt:10 (cmake_policy):
+  The OLD behavior for policy CMP0042 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+-- Could NOT find Vulkan (missing: VULKAN_LIBRARY VULKAN_INCLUDE_DIR) 
+-- Using Cocoa for window creation
+-- Found DLIB: /Users/vector_cat/gits/dlib  
+-- Using CMake version: 3.12.3
+-- Compiling dlib version: 19.16.99
+-- Looking for png_create_read_struct
+-- Looking for png_create_read_struct - found
+-- Looking for jpeg_read_header
+-- Looking for jpeg_read_header - found
+-- Searching for BLAS and LAPACK
+-- Searching for BLAS and LAPACK
+-- Found PkgConfig: /usr/local/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'cblas'
+--   No package 'cblas' found
+-- Checking for module 'lapack'
+--   No package 'lapack' found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of void*
+-- Check size of void* - done
+-- Found LAPACK library
+-- Found CBLAS library
+-- Looking for cblas_ddot
+-- Looking for cblas_ddot - found
+-- Looking for sgesv
+-- Looking for sgesv - found
+-- Looking for sgesv_
+-- Looking for sgesv_ - found
+CUDA_TOOLKIT_ROOT_DIR not found or specified
+-- Could NOT find CUDA (missing: CUDA_TOOLKIT_ROOT_DIR CUDA_NVCC_EXECUTABLE CUDA_INCLUDE_DIRS CUDA_CUDART_LIBRARY) (Required is at least version "7.5")
+-- Disabling CUDA support for dlib.  DLIB WILL NOT USE CUDA
+-- Building a C++11 test project to see if your compiler supports C++11
+-- ********** Your compiler failed to build a C++11 project.  C++11 is required to use all parts of dlib! **********
+-- Performing Test COMPILER_SUPPORTS_CXX11
+-- Performing Test COMPILER_SUPPORTS_CXX11 - Success
+-- Performing Test COMPILER_SUPPORTS_CXX0X
+-- Performing Test COMPILER_SUPPORTS_CXX0X - Success
+-- C++11 activated (compiler doesn't have full C++11 support).
+-- Options:
+-- EOS_BUILD_EXAMPLES: ON
+-- EOS_BUILD_CERES_EXAMPLE: OFF
+-- EOS_BUILD_UTILS: OFF
+-- EOS_BUILD_DOCUMENTATION: OFF
+-- EOS_GENERATE_PYTHON_BINDINGS: OFF
+-- EOS_GENERATE_MATLAB_BINDINGS: OFF
+-- Eigen3 found: TRUE, version: 3.3.5
+-- Eigen3 include dir found at /usr/local/include/eigen3
+-- Found OpenCV: /usr/local (found version "3.4.3") found components:  core 
+-- OpenCV 3.x detected - including imgcodecs for compatibility
+-- Found OpenCV: /usr/local (found suitable version "3.4.3", minimum required is "3") found components:  core imgproc imgcodecs 
+-- Boost version: 1.68.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   program_options
+-- Boost found at /usr/local/include
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/vector_cat/gits/FaceMeshRT/cmake-build-release
